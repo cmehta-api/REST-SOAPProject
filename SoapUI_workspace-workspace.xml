@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="SoapUI_workspace" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="REST Project 1">D:/SoapUI_Workspace/REST-Project-1-soapui-project.xml</con:project>
+  <con:project name="SOAP - CG_Training-CountryInfoService">D:/GitHubProject/CountryInfoService-soapui-project.xml</con:project>
+  <con:project name="REST Project 2">D:/SoapUI_Workspace/REST-IS-soapui-project.xml</con:project>
+  <con:project name="REST - CG_Training-users">D:/SoapUI_Workspace/REST---CG-Training-users-soapui-project.xml</con:project>
+  <con:project name="REST -CG_Training-posts">D:/SoapUI_Workspace/REST--CG-Training-posts-soapui-project.xml</con:project>
+  <con:project name="REST -CG_Training-studentsDetails">D:/SoapUI_Workspace/REST--CG-Training-studentsDetails-soapui-project.xml</con:project>
+  <con:project name="footballpool">D:/SoapUI_Workspace/footballpool-soapui-project.xml</con:project>
+  <con:collectInfoForSupport>false</con:collectInfoForSupport>
+</con:soapui-workspace>

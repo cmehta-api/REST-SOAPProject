@@ -1,0 +1,25 @@
+
+
+    
+<project basedir = "." default = "testreport"  name = "CountryInfoService">
+        
+        <target name = "SoapUI">
+            <exec dir ="." executable = "C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin\testrunner.bat">
+                <arg line = " -j -f 'D:\SoapUI_Workspace' -sTestSuite1 'D:\SoapUI_Workspace\CountryInfoService-soapui-project.xml'"></arg>
+            </exec>
+        </target>
+              
+        <target name = "testreport" depends= "SoapUI">
+            <junitreport todir = "D:\SoapUI_Workspace">
+                <fileset dir ="D:\SoapUI_Workspace">
+                    <include name = "TEST -*.xml"/>
+                    </fileset>
+                    <report todir = "D:\SoapUI_Workspace/HTML">
+                    </report>
+                </junitreport>
+        </target>
+    
+</project>
+
+
+

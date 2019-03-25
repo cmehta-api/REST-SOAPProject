@@ -1,0 +1,5 @@
+
+
+cd C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\bin\.
+testrunner.bat -sTestSuite_calc -cAdd D:\SoapUI_Workspace\Calculator-soapui-project.xml
+
